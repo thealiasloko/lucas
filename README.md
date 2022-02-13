@@ -4,7 +4,7 @@ A Telegram Bot Written In Python To Upload Medias To telegra.ph
 # DEPLOY
 YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW👇
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/r0ld3x/TELEGRAPH-BOT)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlecModsV2/PyScrapper)
 
 # Local Machine
 Clone the repository on cli
