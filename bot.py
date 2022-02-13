@@ -36,9 +36,9 @@ import re
 import telethon
 from sys import argv
 from prettytable import PrettyTable
-api_id = 1667849
-api_hash = 'b719710209932bff18219f4064e92388'
-username = 'r0ld3x'
+api_id = 9454157
+api_hash = 'f9a0e6045b7cb8f7dab987d0c2cbb4a3'
+username = ''
 
 def pregs(dets):
     arrays = re.findall(r'[0-9]+', dets)
@@ -59,7 +59,7 @@ with client:
             ofid = file1.read()
             ofid = int(ofid)
             file1.close()  
-            message = client.iter_messages('Freakdrop',reverse=True,offset_id=ofid,min_id=ofid,wait_time=3)
+            message = client.iter_messages('database',reverse=True,offset_id=ofid,min_id=ofid,wait_time=3)
             for msg in message:
              message = msg
              title = msg.text
@@ -93,8 +93,8 @@ with client:
              m = lista + "\n"
              file1.write(m)
              file1.close() 
-             client.send_message('roldexversedrops', respo,parse_mode='html')
-             client.send_message('https://t.me/flipzcc', respo,parse_mode='html')
+             client.send_message('database', respo,parse_mode='html')
+             client.send_message('https://t.me/databasecc', respo,parse_mode='html')
            except errors.FloodWaitError as e:
                print('Have to sleep', e.seconds, 'seconds')
                time.sleep(e.seconds)
