@@ -36,9 +36,9 @@ import re
 import telethon
 from sys import argv
 from prettytable import PrettyTable
-api_id = 9454157
-api_hash = 'f9a0e6045b7cb8f7dab987d0c2cbb4a3'
-username = ''
+api_id = 11849455
+api_hash = '0956032efc5694f60156fe65f9c19764'
+username = '@DiegoAkk'
 
 def pregs(dets):
     arrays = re.findall(r'[0-9]+', dets)
